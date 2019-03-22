@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.658);
+  color: white;
+}
+.main-container{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(145, 13, 35, 0.575);
+}
+.wb-container{
+  width: 100%;
+}
+.message{
+  color: red;
+}
+.instruct-container{
+  color: white;
+  background: rgba(145, 13, 35, 0.575);
+  border-radius: 5px;
+  h3{
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+}

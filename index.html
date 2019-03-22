@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Word Beater</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="wb-container">
+      <h1>Word Beater</h1>
+    </div>
+    <p>Type The Given Word Within <span class="time-left">5</span> Seconds</p>
+    <h1 class="word"></h1>
+    <form>
+      <input class="word-input" type="text" placeholder="start typing..." autofocus />
+    </form>
+    <p class="message"></p>
+    <p>Time Left: <span class="time">0</span></p>
+    <p>Score: <span class="score">0</span></p>
+
+    <div class="instruct-container">
+      <h3>Instructions</h3>
+      <p>Type each word in the given amount of seconds to score.
+        To play again just type the current word.
+        Your score will reset.</p>
+      <br />
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
